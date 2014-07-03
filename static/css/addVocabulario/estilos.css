@@ -1,0 +1,55 @@
+body{
+	width:  600px;
+	height:  600px;
+}
+
+
+#contenedorAplicacion{
+	border : solid;
+	width:  900px;
+	height:  600px;
+    background-color: dimgray;
+    border-radius: 30px;
+}
+
+
+.ContenedorLista{
+    border-radius: 25px;
+    background-color: dodgerblue;
+    height: 500px;
+    overflow-x: hidden;
+    overflow-y: auto;
+    width: 210px;
+    float: left;
+    margin: 5px;
+}
+
+
+.Elemento{
+    border-radius: 8px;
+    background-color:  darkgrey;
+    height: 80px;
+    width: 180px;
+    margin: 10px;
+}
+
+
+
+.Lista{
+    overflow-x: hidden;
+    overflow-y: scroll;
+    height: 80%;
+}
+
+
+.menuDeGrupo{
+    background-color: ghostwhite;
+    border-radius: 10px;
+    border: solid;
+}
+
+
+.checkbox{
+    width: 30px;
+    height: 30px;
+}
