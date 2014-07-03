@@ -64,6 +64,7 @@ WSGI_APPLICATION = 'vocabulario.wsgi.application'
 # Database
 # https://docs.djangoproject.com/en/1.6/ref/settings/#databases
 
+
 DATABASES = {
 
     'default': {
@@ -71,11 +72,10 @@ DATABASES = {
         'NAME': 'EonLt_DB',
         'USER': 'postgres',
         'PASSWORD' : 'Merlin.Hardcore19',
-        'HOST' : '192.168.1.3',#'190.128.25.131',
+        'HOST' : '190.128.25.131',#'192.168.1.3',
         'PORT' : '3306',
     },
 }
-
 
 
 # Internationalization
